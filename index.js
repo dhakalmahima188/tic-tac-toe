@@ -1,6 +1,6 @@
 
 let music=new Audio('game-music.mp3')
-//music.play();
+music.play();
 let turn='X';
 let gameover=false;
 const changeTurn=()=>{
