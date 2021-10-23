@@ -2,9 +2,40 @@
 #front{
     color:white;
     background-color: blueviolet;
-    width: 500px;
-     height: 40px;   
+   
+     height: 45px;   
     text-align: center;
     font-family: 'Zen Kurenaido', sans-serif;
 }
+.container{
+    margin:80px;
+    justify-content: center;
+    display:grid;
+    grid-template-rows: repeat(3,80px);
+    grid-template-columns: repeat(3,80px);
+}
 
+.container div{
+
+    background-color: wheat;
+    border: 2px solid black;
+}
+
+.box:hover{
+    background-color:yellow;
+   
+}
+.container span{
+
+    margin-left:15px;
+    font-size: 50px;
+    color: rgb(4, 0, 255)
+}
+#button{
+    
+   display: block;
+    background-color:greenyellow;
+    font-size: 20px;
+    margin:auto;
+    
+}
