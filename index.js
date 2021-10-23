@@ -41,8 +41,8 @@ button.addEventListener('click',(element)=>{
     let boxtext=document.querySelectorAll('.x');
 Array.from(boxtext).forEach(element=>{ 
 
-    
     element.innerText='';
+    document.getElementsByClassName("turnof")[0].innerText="Turn: ";
 });
     
 
