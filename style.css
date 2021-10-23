@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+
 #front{
     color:white;
     background-color: blueviolet;
@@ -34,8 +35,23 @@
 #button{
     
    display: block;
-    background-color:greenyellow;
+    background-color:rgb(32, 218, 131);
     font-size: 20px;
     margin:auto;
+    cursor: pointer;
+    font-family: 'Architects Daughter', cursive;
+    
+   
     
 }
+#button:hover{
+    opacity: 0.7;
+}
+.turnof{
+   
+    font-family: 'Zen Kurenaido', sans-serif;
+    margin-top: 40px;
+    background-color: rgb(14, 44, 19);
+    font-size: 30px;
+   text-align: center;
+color:red}
