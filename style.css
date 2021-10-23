@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+#front{
+    color:white;
+    background-color: blueviolet;
+    width: 500px;
+     height: 40px;   
+    text-align: center;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
