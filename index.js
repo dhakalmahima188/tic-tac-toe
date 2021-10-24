@@ -42,7 +42,7 @@ button.addEventListener('click',(element)=>{
 Array.from(boxtext).forEach(element=>{ 
 
     element.innerText='';
-    document.getElementsByClassName("turnof")[0].innerText="Turn: ";
+    document.getElementsByClassName("turnof")[0].innerText="Turn: X/0 ";
 });
     
 
